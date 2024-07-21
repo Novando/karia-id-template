@@ -1,0 +1,17 @@
+{
+  "name": "karia-static-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "build": "tailwindcss -i ./src/css/input.css -o ./src/css/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
+  },
+  "packageManager": "pnpm@8.6.1+sha512.3f9e23f20bdbf7a27b87b804383f1dafdb5cb35cdc40fce590aff2215255446ff595878ee4f33429e6a0e7c3882b1ae926514f6fea6a5ba75e52f87bfc2592e7"
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #39279D;
+    --primary-hover: #FFFFFF;
+    --primary-fg: #FFFFFF;
+    --primary-fg-hover: #04000B;
+
+    --secondary: #009ADB;
+    --secondary-hover: #FFFFFF;
+    --secondary-fg: #FFFFFF;
+    --secondary-fg-hover: #04000B;
+
+    --terniary: #794671;
+    --terniary-hover: #FFFFFF;
+    --terniary-fg: #FFFFFF;
+    --terniary-fg-hover: #04000B;
+  }
+}
