@@ -14,9 +14,12 @@
     --secondary-fg: #FFFFFF;
     --secondary-fg-hover: #04000B;
 
-    --terniary: #794671;
-    --terniary-hover: #FFFFFF;
-    --terniary-fg: #FFFFFF;
-    --terniary-fg-hover: #04000B;
+    --ternary: #794671;
+    --ternary-hover: #FFFFFF;
+    --ternary-fg: #FFFFFF;
+    --ternary-fg-hover: #04000B;
+
+    --background: #FFFFFF;
+    --foreground: #666666;
   }
 }

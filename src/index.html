@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>Karia.id</title>
   <link rel="stylesheet" href="css/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body class="cursor-default">
   <nav class="absolute flex justify-between max-w-7xl w-full left-1/2 -translate-x-1/2 text-primary-fg font-semibold min-h-24">
@@ -15,7 +18,9 @@
       </section>
     </section>
     <section class="flex items-center">
-      <button class="bg-primary hover:bg-primary-hover hover:text-primary-fgh transition-colors py-3 px-10 border rounded">Kontak Kami</button>
+      <button class="bg-primary hover:bg-primary-hover hover:text-primary-fgh transition-colors py-3 px-10 border rounded" type="button">
+        Kontak Kami
+      </button>
     </section>
   </nav>
   <section id="hero" class="bg-[url('img/hero-bg.webp')] text-primary-fg bg-cover h-screen">
@@ -29,6 +34,37 @@
         <p></p>
       </div>
     </section>
+  </section>
+  <section id="usp" class="grid grid-cols-2 py-32 max-w-7xl mx-auto gap-40">
+    <div class="grid grid-cols-2 gap-10">
+      <div class="min-h-72 bg-background shadow-custom-xl rounded-xl border-0 px-8 py-14">
+        <p class="text-xl font-semibold mb-4">Professional</p>
+        <p class="text-foreground">Kami merupakan tim ahli berpengalaman yang berkomitmen mengedepankan kualitas terbaik.</p>
+      </div>
+      <div class="min-h-72 row-span-2 bg-background shadow-custom-xl rounded-xl border-0 px-8 py-14 my-20">
+        <p class="text-xl font-semibold mb-4">Partnership</p>
+        <p class="text-foreground">Bekerja sama untuk menghasilkan kepuasan semua pihak dan kerja sama jangka panjang.</p>
+      </div>
+      <div class="min-h-72 bg-background shadow-custom-xl rounded-xl border-0 px-8 py-14">
+        <p class="text-xl font-semibold mb-4">Bullseye</p>
+        <p class="text-foreground">Kebutuhan yang Anda perlukan dielaborasikan lebih lanjut untuk hasil yang tepat sasaran.</p>
+      </div>
+    </div>
+    <div class="flex flex-col justify-between items-start my-20">
+      <div>
+        <p class="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-primary to-ternary w-fit mb-4">OUR VALUES</p>
+        <h2 class="text-5xl font-semibold mb-6">Best solution equal brilliant results.</h2>
+        <p class="text-foreground">Karia.id, profesional yang berkomitmen pada kualitas untuk membangun kemitraan jangka panjang yang saling menguntungkan dan fokus untuk memberikan hasil terbaik.</p>
+      </div>
+      <button class="bg-primary hover:bg-secondary text-primary-fg hover:text-secondary-fg transition-colors py-3 px-10 rounded" type="button">
+        Lihat Contoh Kasus
+      </button>
+    </div>
+  </section>
+  <section id="client-list" class="w-full py-32 max-w-7xl mx-auto">
+    <div class="rounded-xl bg-primary px-24 py-32 text-center">
+      <h2 class="text-primary-fg font-semibold text-3xl">Dipercaya oleh para Rekanan</h2>
+    </div>
   </section>
 </body>
 </html>
